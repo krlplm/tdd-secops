@@ -1,0 +1,21 @@
+[
+  {
+    "TenantId": "54b708be-a187-41a9-bb08-c8f8d95d5e2f",
+    "SourceSystem": "OpsManager",
+    "TimeGenerated": "2025-02-24T14:25:02.2057707Z",
+    "Source": "Microsoft-Windows-Sysmon",
+    "EventLog": "Microsoft-Windows-Sysmon/Operational",
+    "Computer": "dc1-mon",
+    "EventLevel": 4,
+    "EventLevelName": "Information",
+    "EventID": 1,
+    "Image": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "ProcessId": 4180,
+    "CommandLine": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Output 'simulation'; # `````\"",
+    "User": "NT AUTHORITY\\SYSTEM",
+    "ParentImage": "C:\\Windows\\System32\\cmd.exe",
+    "ParentProcessId": 2712,
+    "EventData": "<DataItem><EventData xmlns=\"http://schemas.microsoft.com/win/2004/08/events/event\"><Data Name=\"UtcTime\">2025-02-24 14:25:02.199</Data><Data Name=\"ProcessId\">4180</Data><Data Name=\"Image\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe</Data><Data Name=\"CommandLine\">C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Output 'simulation'; # `````\"</Data><Data Name=\"User\">NT AUTHORITY\\SYSTEM</Data><Data Name=\"ParentProcessId\">2712</Data><Data Name=\"ParentImage\">C:\\Windows\\System32\\cmd.exe</Data></EventData></DataItem>",
+    "RenderedDescription": "Process Create: EventID: 1 Image: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe CommandLine: C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoProfile -Command \"Write-Output 'simulation'; # `````\""
+  }
+]
